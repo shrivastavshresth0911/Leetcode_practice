@@ -1,14 +1,14 @@
 package Leetcode_practice;
 
 public class Addtwonum{
-    public ListNode addTwo(ListNode l1, ListNode l2){
-        ListNode dummy = new ListNode(0);
-        ListNode current = dummy;
-        int carry = 0;
-
-        //Transverse Both
-        while(l1 != null || l2 !=null)
-
-        return 
+    public int[] twosum(int[] nums, int target){
+        for(int i = 0 ; i < nums.length; i++){
+            for (int j = i + 1 ; j < nums.length ; j++){
+                if(nums[i] + nums[j] == target){
+                    return new int []{i, j};
+                }
+            }
+        }
+        return new int[]{};
     }
 }
