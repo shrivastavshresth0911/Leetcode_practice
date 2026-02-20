@@ -1,8 +1,8 @@
 package Leetcode_practice;
 
 public class ListNode {
-    int value;
-    ListNode next;
+    public int value;
+    public ListNode next;
     ListNode(){};
     ListNode(int value){this.value = value;};
     ListNode(int value, ListNode next){
