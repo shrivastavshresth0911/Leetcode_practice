@@ -1,4 +1,4 @@
-import Leetcode_practice.ListNode;
+package Leetcode_practice;
 
 public class listPrint {
     public static void printList(ListNode node){
